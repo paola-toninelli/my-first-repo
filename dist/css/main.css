@@ -363,7 +363,7 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -9897,5 +9897,19 @@ html {
 /****************
   Fonts Import
 *****************/
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+}
+
+.page-hero .page-hero-content {
+  min-height: 336px;
+}
 
 /*# sourceMappingURL=main.css.map */

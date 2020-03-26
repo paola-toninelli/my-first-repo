@@ -1,4 +1,17 @@
+.section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include media-breakpoint-up(md){
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+}
 
+.page-hero{
+    .page-hero-content{
+        min-height:336px ;
+    }
+}
 
 
 
