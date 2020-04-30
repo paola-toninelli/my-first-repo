@@ -363,7 +363,7 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -9939,6 +9939,23 @@ h2 {
 .box-category .box-category-content {
   min-height: 300px;
   background-size: cover;
+}
+
+.blog-post {
+  height: 300px;
+}
+
+#newsletter {
+  height: calc(1.5em + 1.5rem + 2px);
+  border: 1px solid white;
+}
+
+footer {
+  font-size: 0.7rem;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */

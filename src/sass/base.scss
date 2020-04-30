@@ -44,6 +44,27 @@ h2{
     }
 }
 
+.blog-post{
+        height:300px ;
+        
+    }
+
+    #newsletter{
+        height: calc(1.5em + 1.5rem + 2px);
+        border: 1px solid white;
+
+    }
+
+
+#footer-red{
+    font-size: 0.7rem;
+    &.a {
+        color:white;
+        text-decoration: underline;
+    }
+}
+
+
 
 // Small devices (landscape phones, 576px and up)
 @include media-breakpoint-up(sm) { 
